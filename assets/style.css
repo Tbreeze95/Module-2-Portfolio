@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.HeaderContainer {
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+
+}
+
+.Navigation {
+display: flex;
+justify-content: center;
+list-style-type: none;
+gap: 40px;
+
+}
+
+h1 {
+
+}
+
+.ColumnsContainer {
+display: flex;
+}
+
+.Left {
+font-size: 50px;
+display: flex;
+flex-direction: column;
+ 
+
+}
+
+.Right {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+#About-Me {
+    border-style: solid;
+}
+
+#Work {
+    border-style: solid;
+}
+
+#Contact-Me {
+    border-style: solid;
+}
