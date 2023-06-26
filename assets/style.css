@@ -3,49 +3,37 @@
     margin: 0%;
 }
 
-.HeaderContainer {
-margin: 0 auto;
+header {
+/* margin: 0 auto; */
 display: flex;
 justify-content: space-between;
-
+align-items: center;
 }
 
-.Navigation {
+header img {
+    height: 150px;
+}
+
+.navigation {
 display: flex;
 justify-content: center;
 list-style-type: none;
-gap: 40px;
-
+}
+header nav ul li{
+    margin: 0 10px;
 }
 
 h1 {
 
 }
 
-.ColumnsContainer {
-display: flex;
-}
-
-.Left {
-font-size: 50px;
-display: flex;
-flex-direction: column;
- 
-
-}
-
-.Right {
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
-}
-
-#About-Me {
+.border{
     border-style: solid;
 }
 
-#Work {
-    border-style: solid;
+section{
+    display: flex;
 }
 
-#Contact-Me {
-    border-style: solid;
-}
+
+
