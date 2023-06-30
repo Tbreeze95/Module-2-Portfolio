@@ -1,39 +1,87 @@
 *{
     padding: 0%;
     margin: 0%;
+    background-color: darkcyan;
 }
 
 header {
 /* margin: 0 auto; */
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 header img {
-    height: 150px;
+    width: 125px;
+    height: 200px;
+    padding: 5px;
+    background-color:darkslategray;
 }
 
-.navigation {
-display: flex;
-justify-content: center;
-list-style-type: none;
-}
 header nav ul li{
     margin: 0 10px;
+    
+}
+
+a {
+    color: black;
+}
+
+section {
+    display: flex;
+    margin: 30px;
+    padding: 20px;
 }
 
 h1 {
 
 }
 
+h2 {
+    margin-right: 100px;
+    
+}
+
+img {
+    box-sizing: border-box;
+}
+
+img:hover {
+    border: 5px solid rebeccapurple;
+    
+}
+
+#border-work {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.navigation {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+}
+
+#about-me {
+    color: blue;
+    
+}
+
+#work {
+    color: blueviolet;
+    
+    }
+
+#contact-me {
+    color: chartreuse;
+    margin-top: 250px;
+    
+    
+}
+
 .border{
     border-style: solid;
 }
-
-section{
-    display: flex;
-}
-
-
-
