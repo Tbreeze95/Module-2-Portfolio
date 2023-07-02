@@ -1,27 +1,33 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
-    background-color: darkcyan;
+}
+
+body {
+    /* background-color: darkcyan; */
+    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/rm428-0017.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=ec242b62fa6049625526be5b946d5908);
+    background-size: contain;
+
 }
 
 header {
-/* margin: 0 auto; */
+    /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: cyan;
 }
 
 header img {
-    width: 125px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
     padding: 5px;
-    background-color:darkslategray;
+    background-color: darkslategray;
 }
 
-header nav ul li{
+header nav ul li {
     margin: 0 10px;
-    
+
 }
 
 a {
@@ -30,17 +36,28 @@ a {
 
 section {
     display: flex;
-    margin: 30px;
-    padding: 20px;
+    margin: 20px 0;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* align-items: stretch; */
+
 }
 
-h1 {
 
+
+section h2 {
+    flex: 0 0 20%;
+    text-align: center;
 }
 
-h2 {
-    margin-right: 100px;
-    
+section div {
+    flex: 0 0 77%;
+}
+
+section div p {
+    padding: 15px;
 }
 
 img {
@@ -49,39 +66,89 @@ img {
 
 img:hover {
     border: 5px solid rebeccapurple;
-    
+
 }
 
 #border-work {
-    display: grid;
+    /* display: grid; */
     display: flex;
     flex-wrap: wrap;
 }
 
 
 .navigation {
-    display: flex; 
+    display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-#about-me {
+.about-me {
     color: blue;
-    
+    background-color: antiquewhite;
 }
 
-#work {
+.work {
     color: blueviolet;
-    
-    }
-
-#contact-me {
-    color: chartreuse;
-    margin-top: 250px;
-    
-    
+    background-color: antiquewhite;
 }
 
-.border{
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    height: 200px;
+    width: 200px;
+    margin: 4px;
+    flex-basis: calc(50% - 1em);
+    background-size: cover;
+background-position: center;
+}
+
+.box-one {
+    height: 500px;
+    flex-basis: 100%;
+    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+
+}
+
+.box-two {
+
+    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+  
+
+}
+
+.box-three {
+
+    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+   
+
+}
+
+.box-four {
+
+    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+   
+
+}
+
+.box-five {
+
+    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+    
+
+}
+
+.contact-me {
+    color: chartreuse;
+    background-color: antiquewhite;
+
+
+}
+
+.border {
     border-style: solid;
 }
