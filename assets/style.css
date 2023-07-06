@@ -5,8 +5,10 @@
 
 body {
     /* background-color: darkcyan; */
-    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/rm428-0017.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=ec242b62fa6049625526be5b946d5908);
-    background-size: contain;
+    background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161367.jpg?size=626&ext=jpg&ga=GA1.1.1855002562.1688681695&semt=ais);
+    /* background-size: contain; */
+    background-size:contain
+    
 
 }
 
@@ -18,15 +20,19 @@ header {
     background-color: cyan;
 }
 
-header img {
+/* header img {
     width: 50px;
     height: 100px;
     padding: 5px;
     background-color: darkslategray;
-}
+} */
 
 header nav ul li {
     margin: 0 10px;
+
+}
+
+header nav ul li:hover {
 
 }
 
@@ -41,6 +47,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    /* display: block; */
     /* align-items: stretch; */
 
 }
@@ -69,6 +76,13 @@ img:hover {
 
 }
 
+header img {
+    width: 50px;
+    height: 100px;
+    padding: 5px;
+    background-color: darkslategray;
+}
+
 #border-work {
     /* display: grid; */
     display: flex;
@@ -84,12 +98,17 @@ img:hover {
 
 .about-me {
     color: blue;
-    background-color: antiquewhite;
+    /* -webkit-text-stroke: white; */
+    /* background-color: antiquewhite; */
 }
+
+/* .about-me-border {
+    -webkit-text-stroke: white;
+} */
 
 .work {
     color: blueviolet;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 .project-container {
@@ -144,11 +163,12 @@ background-position: center;
 
 .contact-me {
     color: chartreuse;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 
 
 }
 
-.border {
+/* .border {
     border-style: solid;
-}
+    background-color: black;
+} */
