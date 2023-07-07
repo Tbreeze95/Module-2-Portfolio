@@ -17,15 +17,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: cyan;
+    background-color:darkmagenta;
 }
 
-/* header img {
-    width: 50px;
-    height: 100px;
-    padding: 5px;
-    background-color: darkslategray;
-} */
+h2 {
+    background-color:darkmagenta;
+}
 
 header nav ul li {
     margin: 0 10px;
@@ -33,7 +30,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-
+    border: 3px solid black;
 }
 
 a {
@@ -71,24 +68,27 @@ img {
     box-sizing: border-box;
 }
 
-img:hover {
+/* img:hover {
     border: 5px solid rebeccapurple;
 
-}
+} */
 
-header img {
+/* header img {
     width: 50px;
     height: 100px;
     padding: 5px;
     background-color: darkslategray;
-}
+} */
 
 #border-work {
-    /* display: grid; */
+    display: grid;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* .border contact-me {
+    background-color: darkmagenta;
+} */
 
 .navigation {
     display: flex;
@@ -97,18 +97,30 @@ header img {
 }
 
 .about-me {
-    color: blue;
+    color: black;
     /* -webkit-text-stroke: white; */
     /* background-color: antiquewhite; */
 }
 
-/* .about-me-border {
-    -webkit-text-stroke: white;
-} */
+.about-me-p {
+    background-color: darkmagenta;
+}
+
+.about-me-photo {
+    height: 350px;
+    width: 200px;
+    padding: 10px;
+    
+}
 
 .work {
-    color: blueviolet;
+    color: black;
     /* background-color: antiquewhite; */
+}
+
+.contact-me {
+    background-color: darkmagenta;
+    
 }
 
 .project-container {
@@ -129,46 +141,43 @@ background-position: center;
 .box-one {
     height: 500px;
     flex-basis: 100%;
-    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+    background-image: url('./Images/background\ card.jpeg');
+    
 
 }
 
 .box-two {
 
-    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+    background-image: url('./Images/background\ card.jpeg');
   
 
 }
 
 .box-three {
 
-    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+    background-image: url('./Images/background\ card.jpeg');
    
 
 }
 
 .box-four {
 
-    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+    background-image: url('./Images/background\ card.jpeg');
    
 
 }
 
 .box-five {
 
-    background-image: url('./Images/442B0387-86BC-4B0F-A638-529EA746B660_1_105_c.jpeg');
+    background-image: url('./Images/background\ card.jpeg');
     
 
 }
 
 .contact-me {
-    color: chartreuse;
+    color: black;
     /* background-color: antiquewhite; */
 
 
 }
 
-/* .border {
-    border-style: solid;
-    background-color: black;
-} */
