@@ -26,6 +26,9 @@ h2 {
 
 header nav ul li {
     margin: 0 10px;
+    border-right: 2px solid black;
+    padding-right: 10px;
+
 
 }
 
@@ -35,6 +38,9 @@ header nav ul li:hover {
 
 a {
     color: black;
+}
+li{
+    list-style: none;
 }
 
 section {
@@ -51,7 +57,7 @@ section {
 
 
 
-section h2 {
+section h2, section .aboutImg {
     flex: 0 0 20%;
     text-align: center;
 }
@@ -122,6 +128,15 @@ img {
     background-color: darkmagenta;
     
 }
+.contact-me div ul {
+    display: flex;
+}
+
+.contact-me div ul li{
+    margin-right: 10px;
+    border-right:2px solid black;
+    padding-right: 10px;
+}
 
 .project-container {
     display: flex;
@@ -142,6 +157,7 @@ background-position: center;
     height: 500px;
     flex-basis: 100%;
     background-image: url('./Images/background\ card.jpeg');
+    
     
 
 }
