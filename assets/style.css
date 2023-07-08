@@ -4,16 +4,13 @@
 }
 
 body {
-    /* background-color: darkcyan; */
     background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161367.jpg?size=626&ext=jpg&ga=GA1.1.1855002562.1688681695&semt=ais);
-    /* background-size: contain; */
     background-size:contain
     
 
 }
 
 header {
-    /* margin: 0 auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,12 +47,8 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* display: block; */
-    /* align-items: stretch; */
-
+   
 }
-
-
 
 section h2, section .aboutImg {
     flex: 0 0 20%;
@@ -74,27 +67,11 @@ img {
     box-sizing: border-box;
 }
 
-/* img:hover {
-    border: 5px solid rebeccapurple;
-
-} */
-
-/* header img {
-    width: 50px;
-    height: 100px;
-    padding: 5px;
-    background-color: darkslategray;
-} */
-
 #border-work {
     display: grid;
     display: flex;
     flex-wrap: wrap;
 }
-
-/* .border contact-me {
-    background-color: darkmagenta;
-} */
 
 .navigation {
     display: flex;
@@ -104,8 +81,6 @@ img {
 
 .about-me {
     color: black;
-    /* -webkit-text-stroke: white; */
-    /* background-color: antiquewhite; */
 }
 
 .about-me-p {
@@ -116,18 +91,17 @@ img {
     height: 350px;
     width: 200px;
     padding: 10px;
-    
-}
+    }
 
-.work {
+    .work {
     color: black;
-    /* background-color: antiquewhite; */
 }
 
 .contact-me {
     background-color: darkmagenta;
     
 }
+
 .contact-me div ul {
     display: flex;
 }
@@ -157,43 +131,29 @@ background-position: center;
     height: 500px;
     flex-basis: 100%;
     background-image: url('./Images/background\ card.jpeg');
-    
-    
-
-}
+    }
 
 .box-two {
 
     background-image: url('./Images/background\ card.jpeg');
-  
-
-}
+  }
 
 .box-three {
 
     background-image: url('./Images/background\ card.jpeg');
-   
-
-}
+   }
 
 .box-four {
 
     background-image: url('./Images/background\ card.jpeg');
-   
-
-}
+   }
 
 .box-five {
 
     background-image: url('./Images/background\ card.jpeg');
-    
-
-}
+    }
 
 .contact-me {
     color: black;
-    /* background-color: antiquewhite; */
-
-
 }
 
